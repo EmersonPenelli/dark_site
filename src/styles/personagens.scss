@@ -10,6 +10,7 @@
         letter-spacing: 5px;
         text-transform: uppercase;
         margin-bottom: 60px;
+        font-size: 1.8rem;
     }
     
 
@@ -45,7 +46,6 @@
                 font-size: 18px;
                 text-transform: uppercase;
                 padding-bottom: 5px;
-                
             }
         }
         
@@ -108,14 +108,12 @@
 
             &__text {
                 padding: 40px;
-                
             }
         }
 
         }
 
         &__hanna{
-
             padding-top: 2vw;
         
 
@@ -128,18 +126,12 @@
                 border-radius: 5px;
                 max-width: 100%;
             }
-
-
             &__text {
                 padding: 40px;
-                
             }
         }
-
         }
-
         &__ulrich{
-
             padding-top: 2vw;
         
 
@@ -155,8 +147,7 @@
 
 
             &__text {
-                padding: 40px;
-                
+                padding: 40px;  
             }
         }
 
@@ -333,7 +324,7 @@
 
 @media only screen and (max-width: 600px) and (orientation: portrait ) {
     .personagens {
-        padding: 2vw;
+        padding: 0;
 
         &__list {
             grid-template-columns: 1fr;
@@ -374,7 +365,6 @@
         &__sobre {
 
         &__jonas{
-
             padding-top: 2vw;
         
 
@@ -389,10 +379,8 @@
             
             }
 
-
             &__text {
-                padding: 40px;
-                
+                padding: 0;
             }
         }
 
@@ -414,17 +402,14 @@
 
 
             &__text {
-                padding: 40px;
-                
+                padding: 0;
             }
         }
-
         }
 
         &__ulrich{
-
             padding-top: 2vw;
-        
+            padding: 0;
 
         &__content {
             display: grid;
@@ -437,8 +422,7 @@
 
 
             &__text {
-                padding: 40px;
-                
+                padding: 0;
             }
         }
 
@@ -460,15 +444,12 @@
 
 
             &__text {
-                padding: 40px;
-                
+                padding: 0;
             }
         }
-
         }
 
         &__francisca{
-
             padding-top: 2vw;
         
 
@@ -483,8 +464,7 @@
 
 
             &__text {
-                padding: 40px;
-                
+                padding: 0;
             }
         }
 
@@ -506,8 +486,7 @@
 
 
             &__text {
-                padding: 40px;
-                
+                padding: 0;
             }
         }
 
@@ -529,8 +508,7 @@
 
 
             &__text {
-                padding: 40px;
-                
+                padding: 0;
             }
         }
 
@@ -552,8 +530,7 @@
 
 
             &__text {
-                padding: 40px;
-                
+                padding: 0;
             }
         }
 
@@ -575,8 +552,7 @@
 
 
             &__text {
-                padding: 40px;
-                
+                padding: 0;
             }
         }
 
@@ -598,11 +574,9 @@
 
 
             &__text {
-                padding: 40px;
-                
+                padding: 0;
             }
         }
-
         }
     }
     }
@@ -652,25 +626,23 @@
         &__sobre {
 
             &__jonas{
-            padding-top: 2vw;
+                padding-top: 2vw;
 
             &__content {
-            display: grid;
-            grid-template-columns: 1fr;
-            color: variaveis.$corPrincipal;
-            font-size: 25px;
+                display: grid;
+                grid-template-columns: 1fr;
+                color: variaveis.$corPrincipal;
+                font-size: 25px;
 
             &__img {
                 border-radius: 5px;
-                max-width: 500px;
                 width: 100%;
                 text-align: center;
             }
 
             &__text {
                 padding: 0;
-                margin-right: 40px;
-                padding-right: 40px;
+                text-align: justify;
                 line-height: 1.5;
             }
         }
@@ -688,16 +660,13 @@
 
             &__img {
                 border-radius: 5px;
-                max-width: 500px;
                 width: 100%;
                 text-align: center;
             }
 
-
             &__text {
                 padding: 0;
-                margin-right: 40px;
-                padding-right: 40px;
+                text-align: justify;
                 line-height: 1.5;
             }
         }
@@ -718,14 +687,12 @@
 
             &__img {
                 border-radius: 5px;
-                max-width: 500px;
             }
 
 
             &__text {
                 padding: 0;
-                margin-right: 40px;
-                padding-right: 40px;
+                text-align: justify;
                 line-height: 1.5;
             }
         }
@@ -746,14 +713,12 @@
 
             &__img {
                 border-radius: 5px;
-                max-width: 500px;
             }
 
 
             &__text {
                 padding: 0;
-                margin-right: 40px;
-                padding-right: 40px;
+                text-align: justify;
                 line-height: 1.5;
             }
         }
@@ -774,14 +739,12 @@
 
             &__img {
                 border-radius: 5px;
-                max-width: 500px;
             }
 
 
             &__text {
                 padding: 0;
-                margin-right: 40px;
-                padding-right: 40px;
+                text-align: justify;
                 line-height: 1.5;
             }
         }
@@ -802,14 +765,12 @@
 
             &__img {
                 border-radius: 5px;
-                max-width: 500px;
             }
 
 
             &__text {
                 padding: 0;
-                margin-right: 40px;
-                padding-right: 40px;
+                text-align: justify;
                 line-height: 1.5;
             }
         }
@@ -829,14 +790,13 @@
 
             &__img {
                 border-radius: 5px;
-                max-width: 500px;
+                text-align: justify;
             }
 
 
             &__text {
                 padding: 0;
-                margin-right: 40px;
-                padding-right: 40px;
+
                 line-height: 1.5;
             }
         }
@@ -856,14 +816,12 @@
 
             &__img {
                 border-radius: 5px;
-                max-width: 500px;
             }
 
 
             &__text {
                 padding: 0;
-                margin-right: 40px;
-                padding-right: 40px;
+                text-align: justify;
                 line-height: 1.5;;
             }
         }
@@ -884,14 +842,12 @@
 
             &__img {
                 border-radius: 5px;
-                max-width: 500px;
             }
 
 
             &__text {
                 padding: 0;
-                margin-right: 40px;
-                padding-right: 40px;
+                text-align: justify;
                 line-height: 1.5;
             }
         }
@@ -912,14 +868,12 @@
 
             &__img {
                 border-radius: 5px;
-                max-width: 500px;
             }
 
 
             &__text {
                 padding: 0;
-                margin-right: 40px;
-                padding-right: 40px;
+                text-align: justify;
                 line-height: 1.5;
             }
         }
